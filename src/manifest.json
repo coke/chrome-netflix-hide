@@ -1,0 +1,16 @@
+{
+    "manifest_version": 2,
+
+    "name": "nffixer - fixup netflix suggestions",
+    "description": "Fix netflix by allowing you to hide suggestions",
+    "version": "0.1",
+    "permissions" : [
+        "contextMenus"
+    ],
+    "icons": {
+        "16": "img/16.png"
+    },
+    "background": {
+        "scripts": ["js/context.js"]
+    }
+}
